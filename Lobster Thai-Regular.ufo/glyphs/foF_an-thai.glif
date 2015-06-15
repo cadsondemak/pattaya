@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foFan-thai" format="1">
+  <advance width="1235"/>
+  <unicode hex="0E1F"/>
+  <outline>
+    <contour>
+      <point x="1440" y="1536" type="line"/>
+      <point x="1305" y="1536" type="line"/>
+      <point x="965" y="342" type="line"/>
+      <point x="993" y="1096" type="line"/>
+      <point x="635" y="1096" type="line"/>
+      <point x="389" y="344" type="line"/>
+      <point x="375" y="1178" type="line"/>
+      <point x="80" y="1178" type="line"/>
+      <point x="108" y="0" type="line"/>
+      <point x="393" y="0" type="line"/>
+      <point x="704" y="961" type="line"/>
+      <point x="684" y="0" type="line"/>
+      <point x="969" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1062" y="1178" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

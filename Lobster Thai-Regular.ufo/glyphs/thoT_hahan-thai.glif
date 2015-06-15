@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thoThahan-thai" format="1">
+  <advance width="1061"/>
+  <unicode hex="0E17"/>
+  <outline>
+    <contour>
+      <point x="1043" y="872" type="line" smooth="yes"/>
+      <point x="1048" y="898"/>
+      <point x="1051" y="922"/>
+      <point x="1051" y="945" type="curve" smooth="yes"/>
+      <point x="1051" y="1114"/>
+      <point x="898" y="1188"/>
+      <point x="765" y="1188" type="curve" smooth="yes"/>
+      <point x="616" y="1188"/>
+      <point x="511" y="1077"/>
+      <point x="467" y="991" type="curve"/>
+      <point x="511" y="1178" type="line"/>
+      <point x="251" y="1178" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="295" y="0" type="line"/>
+      <point x="467" y="809" type="line" smooth="yes"/>
+      <point x="490" y="916"/>
+      <point x="580" y="1010"/>
+      <point x="655" y="1010" type="curve" smooth="yes"/>
+      <point x="696" y="1010"/>
+      <point x="752" y="997"/>
+      <point x="752" y="918" type="curve" smooth="yes"/>
+      <point x="752" y="900"/>
+      <point x="749" y="878"/>
+      <point x="744" y="852" type="curve" smooth="yes"/>
+      <point x="568" y="0" type="line"/>
+      <point x="859" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
