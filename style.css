@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'LobsterThai-Regular';
+    src: url('fonts/LobsterThai-Regular.ttf') format('truetype'),
+         url('fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LobsterThai-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+#block-1 {
+  color: #FFF;
+  background-color: #F04B23;
+}
+
+#block-1-header {
+  font-family: LobsterThai-Regular;
+  font-size: 35pt;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 210px;
+}
+
+#name {
+  font-size: 90pt;
+  font-weight: 400;
+}
+
+#block-2 {
+  color: #F04B23;
+  background-color: #FFF;
+  font-family: LobsterThai-Regular;
+  font-size: 35pt;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#block-3 {
+  background: url("img/block03.png") no-repeat center;
+  color: #FFF;
+  background-color: #F04B23;
+}
+
+#block-3-text {
+  font-family: LobsterThai-Regular;
+  font-size: 24pt;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: left;
+  padding-top: 445px;
+  padding-bottom: 80px;
+}
+
+#block-4 {
+  background: url("img/block04.png") no-repeat center;
+  color: #F04B23;
+  background-color: #333333;
+}
+
+#block-4-text {
+  font-family: LobsterThai-Regular;
+  font-size: 45pt;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: left;
+  padding-top: 460px;
+  padding-bottom: 40px;
+}
+
+#block-5 {
+  background: url("img/block05.png") no-repeat center;
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 700px;
+}
+
+#block-6 {
+  color: #FFF;
+  background-color: #F04B23;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#block-6-text1 {
+  font-family: LobsterThai-Regular;
+  font-size: 120pt;
+  line-height: 80%;
+  font-weight: 400;
+  text-align: center;
+}
+
+#block-6-text2 {
+  font-family: LobsterThai-Regular;
+  color: #333333;
+  font-size: 50pt;
+  line-height: 90%;
+  font-weight: 400;
+  text-align: center;
+}
+
+#block-6-text3 {
+  font-family: LobsterThai-Regular;
+  font-size: 92pt;
+  line-height: 70%;
+  font-weight: 400;
+  text-align: center;
+}
+
+#block-7 {
+  background: url("img/block07.png") no-repeat center;
+  color: #FFF;
+  background-color: #333333;
+}
+
+#block-7-text {
+  font-family: LobsterThai-Regular;
+  font-size: 30pt;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+#block-8 {
+  background: url("img/block08.png") no-repeat center;
+  color: #FFF;
+  background-color: #333333;
+}
+
+#block-8-text {
+  font-family: LobsterThai-Regular;
+  font-size: 30pt;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#block-9 {
+  color: #F04B23;
+  background-color: #FFF;
+  font-family: LobsterThai-Regular;
+  font-size: 60pt;
+  line-height: 110%;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+#block-9-Title {
+  font-family: LobsterThai-Regular;
+  font-size: 18pt;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px
+}
+
+#block-9-Char {
+  font-family: LobsterThai-Regular;
+  font-size: 40pt;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 3px
+}
+
+#block-9-Vowel {
+  font-family: LobsterThai-Regular;
+  line-height: 150%;
+  font-size: 40pt;
+  font-weight: 400;
+  text-align: left;
+}
+
+#Line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #F04B23;
+}
+
+#Line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin-bottom: 15px;
+    border-top: 1px solid #F04B23;
+}
