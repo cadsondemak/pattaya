@@ -6,7 +6,7 @@
 	<dict>
 		<key>17F6DB45-924F-4FBF-AEF1-73A82B1062B7</key>
 		<dict>
-	</dict>
+		</dict>
 	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>17F6DB45-924F-4FBF-AEF1-73A82B1062B7</string>
@@ -1178,9 +1178,52 @@
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<integer>0</integer>
 	<key>com.schriftgestaltung.weightValue</key>
-	<real>400</real>
+	<integer>400</integer>
 	<key>com.schriftgestaltung.widthValue</key>
-	<real>5</real>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guides</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>1190</integer>
+			<key>y</key>
+			<integer>-348</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>731</integer>
+			<key>y</key>
+			<integer>919</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>95</integer>
+			<key>y</key>
+			<integer>1342</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>-311</integer>
+			<key>y</key>
+			<integer>1205</integer>
+		</dict>
+	</array>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>

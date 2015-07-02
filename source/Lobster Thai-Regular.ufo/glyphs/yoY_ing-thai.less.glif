@@ -81,4 +81,21 @@
       <point x="1417" y="280" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>270</integer>
+          <key>y</key>
+          <integer>-27</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
