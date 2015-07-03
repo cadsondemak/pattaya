@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="El-cy" format="1">
+  <advance width="1124"/>
+  <unicode hex="041B"/>
+  <note>
+	El-cy
+  </note>
+  <outline>
+    <contour>
+      <point x="198" y="-214"/>
+      <point x="184" y="-184"/>
+      <point x="184" y="-119" type="curve" smooth="yes"/>
+      <point x="184" y="-23"/>
+      <point x="207" y="108"/>
+      <point x="247" y="255" type="curve" smooth="yes"/>
+      <point x="286" y="402"/>
+      <point x="341" y="563"/>
+      <point x="406" y="718" type="curve" smooth="yes"/>
+      <point x="471" y="873"/>
+      <point x="547" y="1020"/>
+      <point x="625" y="1140" type="curve" smooth="yes"/>
+      <point x="703" y="1259"/>
+      <point x="785" y="1350"/>
+      <point x="862" y="1391" type="curve"/>
+      <point x="567" y="0" type="line"/>
+      <point x="862" y="0" type="line"/>
+      <point x="1184" y="1507" type="line"/>
+      <point x="1160" y="1519"/>
+      <point x="1131" y="1526"/>
+      <point x="1103" y="1530" type="curve" smooth="yes"/>
+      <point x="1074" y="1534"/>
+      <point x="1046" y="1536"/>
+      <point x="1022" y="1536" type="curve" smooth="yes"/>
+      <point x="899" y="1536"/>
+      <point x="770" y="1465"/>
+      <point x="646" y="1351" type="curve" smooth="yes"/>
+      <point x="522" y="1237"/>
+      <point x="401" y="1081"/>
+      <point x="297" y="913" type="curve" smooth="yes"/>
+      <point x="192" y="744"/>
+      <point x="103" y="563"/>
+      <point x="40" y="399" type="curve" smooth="yes"/>
+      <point x="-24" y="234"/>
+      <point x="-61" y="85"/>
+      <point x="-61" y="-16" type="curve" smooth="yes"/>
+      <point x="-61" y="-123"/>
+      <point x="-20" y="-177"/>
+      <point x="35" y="-204" type="curve" smooth="yes"/>
+      <point x="90" y="-232"/>
+      <point x="158" y="-233"/>
+      <point x="213" y="-233" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

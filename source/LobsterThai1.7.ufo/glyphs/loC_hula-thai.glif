@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="loChula-thai" format="1">
+  <advance width="1275"/>
+  <unicode hex="0E2C"/>
+  <outline>
+    <contour>
+      <point x="391" y="0" type="line"/>
+      <point x="665" y="757" type="line"/>
+      <point x="682" y="0" type="line"/>
+      <point x="967" y="0" type="line"/>
+      <point x="1227" y="754" type="line" smooth="yes"/>
+      <point x="1236" y="780"/>
+      <point x="1240" y="805"/>
+      <point x="1240" y="829" type="curve" smooth="yes"/>
+      <point x="1240" y="916"/>
+      <point x="1181" y="1048"/>
+      <point x="1058" y="1092" type="curve"/>
+      <point x="1130" y="1141"/>
+      <point x="1194" y="1151"/>
+      <point x="1286" y="1151" type="curve" smooth="yes"/>
+      <point x="1345" y="1151"/>
+      <point x="1405" y="1136"/>
+      <point x="1453" y="1113" type="curve"/>
+      <point x="1453" y="1261"/>
+      <point x="1380" y="1330"/>
+      <point x="1253" y="1330" type="curve" smooth="yes"/>
+      <point x="1092" y="1330"/>
+      <point x="982" y="1226"/>
+      <point x="904" y="1085" type="curve"/>
+      <point x="1075" y="1031"/>
+      <point x="1121" y="921"/>
+      <point x="1121" y="828" type="curve" smooth="yes"/>
+      <point x="1121" y="808"/>
+      <point x="1118" y="785"/>
+      <point x="1109" y="760" type="curve" smooth="yes"/>
+      <point x="963" y="342" type="line"/>
+      <point x="954" y="892" type="line"/>
+      <point x="595" y="892" type="line"/>
+      <point x="387" y="324" type="line"/>
+      <point x="373" y="1178" type="line"/>
+      <point x="78" y="1178" type="line"/>
+      <point x="106" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,223 @@
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem thai dflt;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn CRT;
+languagesystem latn AZE;
+
+feature aalt {
+feature ccmp;
+feature locl;
+feature subs;
+feature sups;
+feature frac;
+feature ordn;
+feature init;
+} aalt;
+
+feature ccmp {
+lookup latn_decomb {
+	script latn;
+@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} latn_decomb;
+
+lookup thai_decomb {
+	script thai;
+	sub saraAm-thai by nikhahit-thai saraAa-thai;
+} thai_decomb;
+
+lookup thai_comb {
+	script thai;
+sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];
+sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
+sub [nikhahit-thai maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];
+sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;
+sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];
+sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];
+sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];
+sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];
+
+} thai_comb;
+} ccmp;
+
+feature locl {
+script latn;
+language CAT;
+sub  l' periodcentered' l by ldot;
+sub  L' periodcentered' L by Ldot;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language KAZ;
+sub i by idotaccent;
+language TAT;
+sub i by idotaccent;
+language TRK;
+sub i by idotaccent;
+language CRT;
+sub i by idotaccent;
+language AZE;
+sub i by idotaccent;
+} locl;
+
+feature subs {
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+} subs;
+
+feature sups {
+sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+} sups;
+
+feature frac {
+sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
+sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
+sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+sub one slash three by onethird;
+sub two slash three by twothirds;
+} frac;
+
+feature ordn {
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+} ordn;
+
+feature init {
+sub ze-cy by ze-cy.init;
+sub ha-cy by ha-cy.init;
+} init;
+
+feature dlig {
+sub a.end x.end by a_x.end;
+sub e.end x.end by e_x.end;
+sub i.end x.end by i_x.end;
+sub o.end s.end by o_s.end;
+sub oacute.end s.end by oacute_s.end;
+sub u.end x.end by u_x.end;
+sub f i by fi.end;
+sub f l by fl.end;
+} dlig;
+
+feature liga {
+sub f f i by f_f_i;
+sub f i by fi;
+sub f f by f_f;
+sub f l by fl;
+sub f f l by f_f_l;
+sub lu-thai lakkhangyao-thai by lu_lakkhangyao-thai;
+sub ru-thai lakkhangyao-thai by ru_lakkhangyao-thai;
+sub a-cy ha-cy by a_ha-cy.liga;
+sub a-cy che-cy by a_che-cy.liga;
+sub be-cy io-cy by be_io-cy.liga;
+sub be-cy zhe-cy by be_zhe-cy.liga;
+sub be-cy iishort-cy by be_iishort-cy.liga;
+sub be-cy ushort-cy by be_ushort-cy.liga;
+sub be-cy i-cy by be_i-cy.liga;
+sub be-cy yi-cy by be_yi-cy.liga;
+sub be-cy je-cy by be_je-cy.liga;
+sub ve-cy zhe-cy by ve_zhe-cy.liga;
+sub ve-cy ze-cy by ve_ze-cy.liga;
+sub ve-cy ha-cy by ve_ha-cy.liga;
+sub ge-cy ze-cy by ge_ze-cy.liga;
+sub ge-cy ha-cy by ge_ha-cy.liga;
+sub ge-cy che-cy by ge_che-cy.liga;
+sub gje-cy ze-cy by gje_ze-cy.liga;
+sub gje-cy ha-cy by gje_ha-cy.liga;
+sub gje-cy che-cy by gje_che-cy.liga;
+sub de-cy che-cy by de_che-cy.liga;
+sub de-cy je-cy by de_je-cy.liga;
+sub ie-cy ze-cy by ie_ze-cy.liga;
+sub ie-cy ha-cy by ie_ha-cy.liga;
+sub ie-cy che-cy by ie_che-cy.liga;
+sub io-cy ze-cy by io_ze-cy.liga;
+sub io-cy ha-cy by io_ha-cy.liga;
+sub io-cy che-cy by io_che-cy.liga;
+sub zhe-cy che-cy by zhe_che-cy.liga;
+sub ze-cy ze-cy by ze_ze-cy.liga;
+sub ze-cy ha-cy by ze_ha-cy.liga;
+sub ze-cy che-cy by ze_che-cy.liga;
+sub ii-cy che-cy by ii_che-cy.liga;
+sub iishort-cy che-cy by iishort_che-cy.liga;
+sub ka-cy che-cy by ka_che-cy.liga;
+sub kje-cy che-cy by kje_che-cy.liga;
+sub el-cy che-cy by el_che-cy.liga;
+sub em-cy che-cy by em_che-cy.liga;
+sub en-cy che-cy by en_che-cy.liga;
+sub o-cy zhe-cy by o_zhe-cy.liga;
+sub o-cy ze-cy by o_ze-cy.liga;
+sub o-cy el-cy by o_el-cy.liga;
+sub o-cy em-cy by o_em-cy.liga;
+sub o-cy ha-cy by o_ha-cy.liga;
+sub pe-cy che-cy by pe_che-cy.liga;
+sub er-cy ze-cy by er_ze-cy.liga;
+sub es-cy ze-cy by es_ze-cy.liga;
+sub es-cy ha-cy by es_ha-cy.liga;
+sub es-cy che-cy by es_che-cy.liga;
+sub te-cy che-cy by te_che-cy.liga;
+sub u-cy che-cy by u_che-cy.liga;
+sub u-cy je-cy by u_je-cy.liga;
+sub ushort-cy che-cy by ushort_che-cy.liga;
+sub ushort-cy je-cy by ushort_je-cy.liga;
+sub ef-cy ze-cy by ef_ze-cy.liga;
+sub ha-cy che-cy by ha_che-cy.liga;
+sub che-cy che-cy by che_che-cy.liga;
+sub sha-cy che-cy by sha_che-cy.liga;
+sub dzhe-cy che-cy by dzhe_che-cy.liga;
+sub ia-cy che-cy by ia_che-cy.liga;
+sub yeru-cy che-cy by yeru_che-cy.liga;
+sub e-cy ze-cy by e_ze-cy.liga;
+sub e-cy ha-cy by e_ha-cy.liga;
+sub e-cy che-cy by e_che-cy.liga;
+sub ereversed-cy ze-cy by ereversed_ze-cy.liga;
+sub i-cy che-cy by i_che-cy.liga;
+sub yi-cy che-cy by yi_che-cy.liga;
+sub yi-cy yi-cy by yi_yi-cy.liga;
+sub je-cy che-cy by je_che-cy.liga;
+sub je-cy je-cy by je_je-cy.liga;
+sub tshe-cy che-cy by tshe_che-cy.liga;
+sub tshe-cy je-cy by tshe_je-cy.liga;
+sub iu-cy zhe-cy by iu_zhe-cy.liga;
+sub iu-cy ze-cy by iu_ze-cy.liga;
+sub iu-cy el-cy by iu_el-cy.liga;
+sub iu-cy em-cy by iu_em-cy.liga;
+sub iu-cy ha-cy by iu_ha-cy.liga;
+} liga;
+
