@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'LobsterThai-Regular';
-    src: url('fonts/LobsterThai-Regular.ttf') format('truetype'),
-         url('fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/LobsterThai-Regular.woff') format('woff');
+    src: url('/fonts/LobsterThai-Regular.ttf') format('truetype'),
+         url('/fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/LobsterThai-Regular.woff') format('woff');
     font-weight: 400;
 }
 
