@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'LobsterThai-Regular';
-    src: url('./fonts/LobsterThai-Regular.eot');
-    src: url('./fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/LobsterThai-Regular.woff2') format('woff2'),
-         url('./fonts/LobsterThai-Regular.woff') format('woff'),
-         url('./fonts/LobsterThai-Regular.ttf') format('truetype');
+    src: url('/fonts/LobsterThai-Regular.eot');
+    src: url('/fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/LobsterThai-Regular.woff2') format('woff2'),
+         url('/fonts/LobsterThai-Regular.woff') format('woff'),
+         url('/fonts/LobsterThai-Regular.ttf') format('truetype');
 }
 
 #block-1 {
