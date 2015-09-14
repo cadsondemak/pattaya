@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'LobsterThai-Regular';
+    font-family: 'LobsterThaiRegular';
     src: url('./fonts/LobsterThai-Regular.eot');
     src: url('./fonts/LobsterThai-Regular.eot?#iefix') format('embedded-opentype'),
          url('./fonts/LobsterThai-Regular.woff2') format('woff2'),
@@ -13,7 +13,7 @@
 }
 
 #block-1-header {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 35pt;
 
   text-align: center;
@@ -29,7 +29,7 @@
 #block-2 {
   color: #F04B23;
   background-color: #FFF;
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 35pt;
   font-weight: normal;
   text-align: left;
@@ -44,7 +44,7 @@
 }
 
 #block-3-text {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 24pt;
 
   line-height: 140%;
@@ -60,7 +60,7 @@
 }
 
 #block-4-text {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 45pt;
 
   line-height: 120%;
@@ -84,7 +84,7 @@
 }
 
 #block-6-text1 {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 120pt;
   line-height: 80%;
 
@@ -92,7 +92,7 @@
 }
 
 #block-6-text2 {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   color: #333333;
   font-size: 50pt;
   line-height: 90%;
@@ -101,7 +101,7 @@
 }
 
 #block-6-text3 {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 92pt;
   line-height: 70%;
 
@@ -116,7 +116,7 @@
 }
 
 #block-7-text {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 30pt;
 
   line-height: 150%;
@@ -133,7 +133,7 @@
 }
 
 #block-8-text {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 30pt;
 
   line-height: 150%;
@@ -145,7 +145,7 @@
 #block-9 {
   color: #F04B23;
   background-color: #FFF;
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 60pt;
   line-height: 110%;
 
@@ -155,7 +155,7 @@
 }
 
 #block-9-Title {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 18pt;
 
   text-align: left;
@@ -163,7 +163,7 @@
 }
 
 #block-9-Char {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   font-size: 40pt;
 
   text-align: left;
@@ -171,7 +171,7 @@
 }
 
 #block-9-Vowel {
-  font-family: 'LobsterThai-Regular';
+  font-family: 'LobsterThaiRegular';
   line-height: 150%;
   font-size: 40pt;
 
