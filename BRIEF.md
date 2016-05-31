@@ -1,3 +1,7 @@
-#Lobster Thai Font
+# Pattaya: A Thai Lobster Font
 
-This Thai typeface based on Lobster, one of the most popular typeface. The original Lobster designed by Pablo Impallari. Lobster Thai is the Thai version which includes Latin and supports all variations of the Thai script. The objective of this project is to design Thai glyphs that is compatible with Latin. However, leading has to be adjusted in order to support a level of Thai vowels and tone marks.
+Lobster is one of the most popular web fonts, designed by Pablo Impallari. 
+Pattaya is a version of Lobster extended into Thai, and supports Latin and all variations of the Thai script. 
+The objective of this project is to design Thai glyphs that are compatible with the Latin design. 
+However, vertical metrics (that effect line-spacing) had to be adjusted in order to support Thai vowels and tone marks, so this is published as a separate family. 
+
